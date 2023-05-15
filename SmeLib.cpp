@@ -69,7 +69,7 @@ uint32_t readADC_Avg2(int ADC_Raw)
 // costomer filter by ahmed reghini https://github.com/ahmedreghini/getStableValue.git
 //#include <getStableValue.h>
 // get stable value instance
-//getStableValue emongsv;
+//getStableValue smegsv;
 // for test ADC_COUNTS = ADC_COUNTS - 1096;
 //ADC_COUNTS = 3000;
 //--------------------------------------------------------------------------------------
