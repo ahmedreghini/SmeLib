@@ -1,12 +1,12 @@
 {
-  "name": "EmonLib",
+  "name": "SmeLib",
   "keywords": "electricity, energy, monitoring",
-  "description": "Energy Monitoring Library",
+  "description": "Energy Monitoring Library for Esp32 3.3v ADC input",
   "version": "1.1.0",
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/openenergymonitor/EmonLib.git"
+    "url": "https://github.com/ahmedreghini/SmeLib.git"
   },
   "frameworks": "arduino",
   "platforms":
