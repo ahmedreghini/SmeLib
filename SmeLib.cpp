@@ -111,14 +111,14 @@ void EnergyMonitor::currentTX(unsigned int _channel, double _ICAL)
 }
 
 //--------------------------------------------------------------------------------------
-// emon_calc procedure
+// sme_calc procedure
 // Calculates realPower,apparentPower,powerFactor,Vrms,Irms,kWh increment
 // From a sample window of the mains AC voltage and current.
 // The Sample window length is defined by the number of half wavelengths or crossings we choose to measure.
 //--------------------------------------------------------------------------------------
 void EnergyMonitor::calcVI(unsigned int crossings, unsigned int timeout)
 {
-  //#if defined emonTxV3
+  //#if defined esp32v33
   int SupplyVoltage = 3300;
   /* #else
   int SupplyVoltage = readVcc();
